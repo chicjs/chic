@@ -1,0 +1,16 @@
+{
+  "name": "@chicjs/cli",
+  "version": "0.1.0",
+  "description": "The Chic CLI",
+  "author": "Manuel Vila <hi@mvila.me>",
+  "license": "MIT",
+  "repository": "https://github.com/chicjs/chic/tree/master/packages/cli",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "chic": "dist/node/cjs/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

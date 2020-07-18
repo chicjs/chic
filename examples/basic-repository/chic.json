@@ -1,0 +1,5 @@
+{
+  "type": "repository",
+  "template": "@chicjs/basic-repository",
+  "packages": ["packages/*"]
+}

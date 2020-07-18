@@ -1,0 +1,4 @@
+{
+  "type": "package",
+  "template": "@chicjs/basic-ts-package"
+}

@@ -2,6 +2,7 @@
   "name": "@chicjs/cli",
   "version": "0.1.0",
   "description": "The Chic CLI",
+  "keywords": [],
   "author": "Manuel Vila <hi@mvila.me>",
   "license": "MIT",
   "repository": "https://github.com/chicjs/chic/tree/master/packages/cli",
@@ -9,8 +10,22 @@
     "dist"
   ],
   "bin": {
-    "chic": "dist/node/cjs/index.js"
+    "chic": "dist/node-cjs/index.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "dev-tools build:ts-library",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "@mvila/dev-tools": "^1.0.2",
+    "@mvila/tsconfig": "^1.0.1",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^13.13.2"
+  }
 }

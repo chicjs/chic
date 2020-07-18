@@ -2,14 +2,20 @@
   "name": "chic",
   "version": "0.1.0",
   "description": "Manage your JavaScript projects in a chic way",
+  "keywords": [],
   "author": "Manuel Vila <hi@mvila.me>",
   "license": "MIT",
+  "homepage": "https://github.com/chicjs/chic",
   "repository": "https://github.com/chicjs/chic/tree/master/packages/chic",
+  "bugs": "https://github.com/chicjs/chic/issues",
   "files": [
     "dist"
   ],
   "main": "dist/node/cjs",
   "module": "dist/node/esm",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "dependencies": {},
   "devDependencies": {}
 }
